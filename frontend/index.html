@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SecureCode AI - Code Vulnerability Scanner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🔐 SecureCode AI</h1>
+    <p class="subtitle">Paste your code below and scan it for security vulnerabilities using AI.</p>
+    
+    <textarea id="codeInput" placeholder="Paste your code here..."></textarea>
+    <button id="scanBtn">🚀 Scan Code</button>
+
+    <div id="loading" class="loading" style="display: none;">
+      <div class="spinner"></div>
+      <span>🔍 Scanning your code, please wait...</span>
+    </div>
+
+    <div id="resultContainer">
+      <h2>🛡️ Results</h2>
+      <div id="output"></div>
+    </div>
+  </div>
+
+  <footer>
+    Developed by Rifnas Mohamed
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
